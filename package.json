@@ -1,0 +1,22 @@
+{
+  "name": "swag-labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "dotenv": "^18.0.5",
+    "typescript": "^7.0.2"
+  }
+}
